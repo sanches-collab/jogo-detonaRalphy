@@ -30,7 +30,7 @@ alert("Game Over! O seu resultado foi: "  + state.values.result );
 }
 
 fuction playSoud(){
-let audio = new Audio("./src/audios/hit.m4a");
+let audio = new Audio("./src/audio/audiobuzzer.mp3");
 audio.volume= 0.2;
 audio play();
 }
