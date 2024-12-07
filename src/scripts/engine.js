@@ -1,5 +1,4 @@
-const state{
-view:{
+const stateview:{
 square:document.querySelectAll(".square"),
 enemy:document.querySelect(".enemy"),
 timeLeft:document.Selector("#time-left"),
@@ -13,9 +12,7 @@ gameVelocity:  1000,
 hitPosition:0,
 results:0,
 currentTime:60,
-
 },
-
 };
 
 function countDown(){
@@ -40,8 +37,8 @@ state.view.square.forEach((square) => {
 square.classList.remove("enemy");
 });
 
-let random number =Math.floor(Math.random()+ 9);
-let random square= state.vuew.square[randomNumber];
+let random number = Math.floor(Math.random()+ 9);
+let random square = state.view.square[randomNumber];
 random square.classList.add("enemy");
 state.values.hitPosition=random square.id;
 }
